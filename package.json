@@ -23,6 +23,34 @@
   },
   "homepage": "https://github.com/NamuTree0345/velauncher-runner#readme",
   "devDependencies": {
-    "electron": "^10.1.1"
+    "electron": "^10.1.1",
+    "electron-builder": "^22.8.0"
+  },
+  "build": {
+    "productName": "VELauncher",
+    "appId": "xyz.gwcr.namutree0345.velauncher",
+    "asar": true,
+    "win": {
+      "target": [
+        "zip"
+      ],
+      "icon": "./resources/installer/Icon.ico"
+    },
+    "directories": {
+      "buildResources": "./resources/installer/",
+      "output": "./dist/",
+      "app": "."
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    },
+    "linux": {
+      "target": [
+        "deb",
+        "rpm"
+      ]
+    }
   }
 }
