@@ -1,0 +1,28 @@
+{
+  "name": "velauncher",
+  "version": "1.0.0",
+  "description": "VELauncher Runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NamuTree0345/velauncher-runner.git"
+  },
+  "keywords": [
+    "launcher",
+    "minecraft",
+    "ve",
+    "runner"
+  ],
+  "author": "NamuTree0345 (redwikitv@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NamuTree0345/velauncher-runner/issues"
+  },
+  "homepage": "https://github.com/NamuTree0345/velauncher-runner#readme",
+  "devDependencies": {
+    "electron": "^10.1.1"
+  }
+}
